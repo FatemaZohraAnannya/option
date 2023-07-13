@@ -33,33 +33,35 @@
     align-items: center;
 }
 
-.title{
+.title {
     font-size: 55px;
     font-weight: bold;
     color: white;
 }
 
-.primary{
+.primary {
     color: red;
 }
 
-.description{
+.description {
     color: white;
     padding: 10px;
     width: 50%;
     margin: auto;
 }
-.btn{
+
+.btn {
     padding: 12px 20px;
     border: none;
 }
-.bg-primary{
+
+.bg-primary {
     background-color: red;
     color: white;
 }
 
 
-.service-container{
+.service-container {
     height: 100vh;
     background-image: url('../asset/image/footer-bg.png'),
         linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
@@ -73,13 +75,21 @@
     justify-content: space-around;
     padding: 20px;
 }
-.service-description{
+
+.service-description {
     width: 50%;
 }
-.icon{
+
+.description-list {
+    padding-left: 18px;
+    margin-bottom: 15px;
+}
+
+.icon {
     width: 70px;
 }
-.box{
+
+.box {
     padding: 50px;
     width: 200px;
     height: 150px;
@@ -89,38 +99,101 @@
     border-radius: 5px;
     /* box-shadow: 4px 4px 8px gray ; */
 }
-.first-two-box{
+
+.first-two-box {
     display: flex;
     gap: 2px;
+    margin-bottom: 2px;
 }
-.author-img{
+
+.author-img {
     width: 70px;
     height: 70px;
     border-radius: 35px;
 }
-.author-container{
+
+.author-container {
     display: flex;
     gap: 20px;
     align-items: center;
 }
-.profile-container{
+
+.profile-container {
     display: flex;
     align-items: center;
     border-right: 2px solid red;
     padding-right: 20px;
 }
-.phone-call{
+
+.phone-call {
     display: flex;
     align-items: center;
 }
-.appointment-container{
+
+.appointment-container {
     display: flex;
     justify-content: space-around;
     width: 70%;
     margin: auto;
     padding: 20px;
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.9);
+    /* background-image: url('../asset/image/background.jpg'),
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* color: white; */
+    /*  */
     border-radius: 10px;
     margin-top: -30px;
     align-items: center;
 }
+
+.blog-title {
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.card {
+    width: 220px;
+    height: 350px;
+    /* background-color: blue; */
+    box-shadow: 4px 8px 4px rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: rgb(83, 114, 114);
+}
+
+.blog-img {
+    width: 100%;
+}
+
+.title-with-text {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.card-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.blog-container {
+    width: 80%;
+    margin: auto;
+    background-color: gray;
+    padding: 10px;
+    margin-top: -30px;
+}
+
+/* check content about z axis */
+/* https://www.facebook.com/MIRJAKARIYA239/videos/3120841344878856?idorvanity=245345291436418 */
