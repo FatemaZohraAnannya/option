@@ -2,9 +2,11 @@
     margin: 0px;
     padding: 0px;
 }
-main{
+
+main {
     position: relative;
 }
+
 .nav-container {
     display: flex;
     background-color: gray;
@@ -201,8 +203,3 @@ main{
 
 
 /* check content about z axis */
-/* https://www.facebook.com/MIRJAKARIYA239/videos/3120841344878856?idorvanity=245345291436418 */
-
-/* movie 
-https://goku.sx/watch-movie/watch-mavka-the-forest-song-83248/1353931
-*/
